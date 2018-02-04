@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function (str) {
+window.tokenizeWhitespace = function (str) {
     if (typeof str !== 'string') {
         throw new TypeError('You must supply a string');
     }
